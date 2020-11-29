@@ -2,6 +2,10 @@
 
 Laravel + Livewire + tailwind css
 
+### TODOs
+
+-   generate key app: php artisan key:generate
+
 ## Packages
 
 ### Spatie: Laravel permissions
