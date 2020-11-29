@@ -2,6 +2,7 @@
 
 namespace {{ factoryNamespace }};
 
+use App\Models\Team;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use {{ namespacedModel }};
 
@@ -22,7 +23,7 @@ class {{ factory }}Factory extends Factory
     public function definition()
     {
         return [
-            //
+            'team_id' => Team::factory()->create(),
         ];
     }
 }
