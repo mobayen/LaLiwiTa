@@ -4,7 +4,8 @@ Laravel + Livewire + tailwind css
 
 ### TODOs
 
--   generate key app: php artisan key:generate
+-   Create a **.env** file
+-   **Generate key app**: php artisan key:generate
 
 ## Packages
 
